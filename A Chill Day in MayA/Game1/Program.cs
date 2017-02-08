@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Game1
+namespace A_Chill_Day_in_MayA
 {
 #if WINDOWS || LINUX
     /// <summary>
@@ -14,7 +14,7 @@ namespace Game1
         [STAThread]
         static void Main()
         {
-            using (var game = new Game1())
+            using (var game = new A_Chill_Day_in_MayA())
                 game.Run();
         }
     }

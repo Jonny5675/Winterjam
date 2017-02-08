@@ -2,17 +2,17 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace Game1
+namespace A_Chill_Day_in_MayA
 {
     /// <summary>
     /// This is the main type for your game.
     /// </summary>
-    public class Game1 : Game
+    public class A_Chill_Day_in_MayA : Game
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        public Game1()
+        public A_Chill_Day_in_MayA()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
