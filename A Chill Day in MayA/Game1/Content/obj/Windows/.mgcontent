@@ -4,12 +4,14 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/Le Sprites/ship.png</File>
-    <File>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/Le Sprites/battledress.png</File>
-    <File>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/Le Sprites/Beachchair.png</File>
-    <File>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/Le Sprites/MonkeymO.png</File>
-    <File>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/Le Sprites/Playerish.png</File>
-    <File>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/Le Sprites/The Real Beach.png</File>
-    <File>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/Le Sprites/The real boat.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/ship.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/battledress.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/Beachchair.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/MonkeymO.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/Playerish.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/The Real Beach.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/The real boat.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/Fireball.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/IceBall.png</File>
   </SourceFiles>
 </SourceFileCollection>
