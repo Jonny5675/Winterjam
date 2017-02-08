@@ -1,2 +1,0 @@
-C:\Users\dkook\Documents\Rpos for positries 2too\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
-C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
