@@ -62,3 +62,5 @@ C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\G
 C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\Game1\obj\x86\Debug\A_Chill_Day_in_MayA.csprojResolveAssemblyReference.cache
 C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\Game1\obj\x86\Debug\Game1.exe
 C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\Game1\obj\x86\Debug\Game1.pdb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\Fireball.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\IceBall.xnb

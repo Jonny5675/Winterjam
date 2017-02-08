@@ -77,6 +77,7 @@ public class Game1 : Game
             Exit();
 
         // TODO: Add your update logic here
+        chillDay.Update(gameTime);
 
         base.Update(gameTime);
     }

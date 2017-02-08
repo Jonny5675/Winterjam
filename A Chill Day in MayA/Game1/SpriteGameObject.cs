@@ -9,7 +9,7 @@ using Microsoft.Xna.Framework.Graphics;
 class SpriteGameObject
 {
     Texture2D sprite;
-    Rectangle rectangle;
+    protected Rectangle rectangle;
     float speed;
     Vector2 direction;
 

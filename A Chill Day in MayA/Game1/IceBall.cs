@@ -6,16 +6,19 @@ using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-class Ship : SpriteGameObject
+
+class IceBall : SpriteGameObject
+
 {
-    public Ship(Game1 game) : base(game.Content.Load<Texture2D>("Le Sprites/The real boat"), new Rectangle(0, 0, 500, 500), 0f, new Vector2(0, 0))
+
+    public IceBall(Texture2D iceBall, Vector2 origin, Vector2 direction): base(iceBall, new Rectangle ((int)origin.X, (int)origin.Y, 50, 50), 2.7f, direction)
     {
-        
+
     }
 
     public override void Update()
     {
-
+        base.Update();
     }
 
     public override void Draw(SpriteBatch s)
@@ -23,3 +26,7 @@ class Ship : SpriteGameObject
         base.Draw(s);
     }
 }
+
+
+
+

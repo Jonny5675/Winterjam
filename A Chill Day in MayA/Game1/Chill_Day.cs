@@ -17,6 +17,8 @@ class Chill_Day
 
     List<Ship> shipList;
     Player player;
+    List<FireBall> fireBallList;
+    List<IceBall> iceBallList;
 
     public Chill_Day(Game1 game, Vector2 screen)
     {
@@ -29,8 +31,10 @@ class Chill_Day
 
         shipList = new List<Ship>();
         AddShip();
+        fireBallList = new List<FireBall>();
+        iceBallList = new List<IceBall>();
 
-        player = new Player(game);
+        player = new Player(game, fireBallList);
     }
 
     public void AddShip()
@@ -39,7 +43,7 @@ class Chill_Day
         shipList.Add(s);
     }
 
-    public void Update()
+    public void Update(GameTime gameTime)
     {
         inputHandler.Update();
 
@@ -48,7 +52,17 @@ class Chill_Day
             ship.Update();
         }
 
-        player.Update();
+        player.Update(inputHandler, gameTime);
+
+        foreach (FireBall f in fireBallList)
+        {
+            f.Update();
+        }
+
+        foreach(IceBall i in iceBallList)
+        {
+            i.Update();
+        }
     }
 
     public void Draw(SpriteBatch s)
@@ -61,5 +75,15 @@ class Chill_Day
         }
 
         player.Draw(s);
+
+        foreach (FireBall f in fireBallList)
+        {
+            f.Draw(s);
+        }
+
+        foreach (IceBall i in iceBallList)
+        {
+            i.Draw(s);
+        }
     }
 }

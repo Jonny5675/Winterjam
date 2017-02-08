@@ -38,8 +38,10 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="FireBall.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Chill_Day.cs" />
+    <Compile Include="IceBall.cs" />
     <Compile Include="InputHandler.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
