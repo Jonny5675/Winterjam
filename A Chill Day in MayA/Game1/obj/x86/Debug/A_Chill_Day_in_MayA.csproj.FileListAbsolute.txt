@@ -24,3 +24,9 @@ C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debu
 C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\obj\x86\Debug\A_Chill_Day_in_MayA.csprojResolveAssemblyReference.cache
 C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\obj\x86\Debug\Game1.exe
 C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\obj\x86\Debug\Game1.pdb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\battledress.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\Beachchair.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\MonkeymO.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\Playerish.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\The Real Beach.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\The real boat.xnb

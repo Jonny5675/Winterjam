@@ -54,7 +54,7 @@ public class Game1 : Game
 
         // TODO: use this.Content to load your game content here
 
-        chillDay = new Chill_Day(this);
+        chillDay = new Chill_Day(this, screen);
     }
 
     /// <summary>

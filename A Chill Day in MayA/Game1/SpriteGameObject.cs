@@ -10,16 +10,21 @@ class SpriteGameObject
 {
     Texture2D sprite;
     Rectangle rectangle;
+    float speed;
+    Vector2 direction;
 
-    public SpriteGameObject(Texture2D sprite, Rectangle rectangle)
+    public SpriteGameObject(Texture2D sprite, Rectangle rectangle, float speed, Vector2 direction)
     {
         this.sprite = sprite;
         this.rectangle = rectangle;
+        this.speed = speed;
+        this.direction = direction;
     }
 
     public virtual void Update()
     {
-
+        rectangle.X += (int)(direction.X * speed);
+        rectangle.Y += (int)(direction.Y * speed);
     }
 
     public virtual void Draw(SpriteBatch s)

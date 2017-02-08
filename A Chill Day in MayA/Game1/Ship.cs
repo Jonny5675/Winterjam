@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 class Ship : SpriteGameObject
 {
-    public Ship(Game1 game) : base(game.Content.Load<Texture2D>("Le Sprites/ship"), new Rectangle(0, 0, 500, 500))
+    public Ship(Game1 game) : base(game.Content.Load<Texture2D>("Le Sprites/ship"), new Rectangle(0, 0, 500, 500), 0f, new Vector2(0, 0))
     {
         
     }
