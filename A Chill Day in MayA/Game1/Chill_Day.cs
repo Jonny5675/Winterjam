@@ -5,13 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Audio;
 
 class Chill_Day
 {
     Game1 game;
     Vector2 screen;
-    SoundEffect backgroundsound;
 
     InputHandler inputHandler;
 
@@ -30,11 +28,6 @@ class Chill_Day
         inputHandler = new InputHandler();
 
         background = game.Content.Load<Texture2D>("Le Sprites/The Real Beach2");
-
-        SoundEffect backgroundsound = game.Content.Load<SoundEffect>("Sounds/traveler");
-        SoundEffectInstance backgroundloop = backgroundsound.CreateInstance();
-        backgroundloop.IsLooped = true;
-        backgroundloop.Play();
 
         shipList = new List<Ship>();
         AddShip();

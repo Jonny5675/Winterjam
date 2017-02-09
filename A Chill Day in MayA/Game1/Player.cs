@@ -5,14 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using System.Media;
 
 class Player : SpriteGameObject
 {
     Texture2D fireBall;
-  
+    SoundPlayer fireballsound;
+
     List<FireBall> fireBallList;
 
     int chillDownTime;
+    int lives;
 
     public Player(Game1 game, List<FireBall> fireBallList) : base(game.Content.Load<Texture2D>("Le Sprites/Real Playerglasses"), new Rectangle(1000, 500, 500, 500), 0f, new Vector2(0, 0))
     {
@@ -20,12 +23,15 @@ class Player : SpriteGameObject
 
         fireBall = game.Content.Load<Texture2D>("Le Sprites/Fireball");
 
-        
-       
+        /* this one seems to the closest to working
+        fireballsound = game.Content.Load<SoundPlayer>("Sounds/fireballs");
+        */
 
-    
+        // System.Media.SoundPlayer fireballs = new System.Media.SoundPlayer("Sounds/fireballs");
+        // fireballs.Play();
         chillDownTime = 500;
-     
+       // SoundPlayer fireballsound = new SoundPlayer();
+      //  player.SoundLocation = open
     }
 
     public void Update(InputHandler inputHandler, GameTime gameTime)

@@ -84,8 +84,3 @@ C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\G
 C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Sounds\welcome.wma
 C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Sounds\welcome.xnb
 C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\Real Playerglasses.xnb
-C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\bigpin.xnb
-C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\attacksprite.xnb
-C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\burningshipsyay.xnb
-C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\realburningshipsno.xnb
-C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\takedamage.xnb
