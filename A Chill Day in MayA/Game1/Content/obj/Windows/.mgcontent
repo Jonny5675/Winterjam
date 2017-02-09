@@ -4,6 +4,7 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
+<<<<<<< HEAD
     <File>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/Le Sprites/ship.png</File>
     <File>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/Le Sprites/battledress.png</File>
     <File>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/Le Sprites/Beachchair.png</File>
@@ -30,5 +31,36 @@
     <File>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/Le Sprites/Real Playerglasses.png</File>
     <File>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/Le Sprites/hp_black.png</File>
     <File>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/Le Sprites/hp_red.png</File>
+=======
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/ship.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/battledress.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/Beachchair.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/MonkeymO.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/Playerish.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/The Real Beach.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/The real boat.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/Fireball.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/IceBall.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Sounds/burning.mp3</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Sounds/explosion.wav</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Sounds/fireballs.wav</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Sounds/gameover.mp3</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Sounds/iceball.wav</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Sounds/traveler.wav</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Sounds/welcome.mp3</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/purple playa.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/Real Player.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/ship burning yay.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/ship burning yay2.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/The Real Beach2.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/The real boat burnig 2.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/The real boat burning.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/Real Playerglasses.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/bigpin.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/attacksprite.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/burningshipsyay.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/realburningshipsno.png</File>
+    <File>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/takedamage.png</File>
+>>>>>>> 496998d5caf4c94c815997837a77360d6d44e8df
   </SourceFiles>
 </SourceFileCollection>

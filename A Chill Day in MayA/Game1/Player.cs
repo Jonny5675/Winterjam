@@ -5,12 +5,20 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+<<<<<<< HEAD
 using Microsoft.Xna.Framework.Audio;
+=======
+>>>>>>> 496998d5caf4c94c815997837a77360d6d44e8df
 
 class Player : Creature
 {
     Texture2D fireBall;
+<<<<<<< HEAD
     SoundEffect fireballsound;
+=======
+  
+    List<FireBall> fireBallList;
+>>>>>>> 496998d5caf4c94c815997837a77360d6d44e8df
 
     int chillDownTime;
 
@@ -18,10 +26,19 @@ class Player : Creature
     {
         fireBall = game.Content.Load<Texture2D>("Le Sprites/Fireball");
 
+<<<<<<< HEAD
         //loads the fireball sound
         fireballsound = game.Content.Load<SoundEffect>("Sounds/fireballs");
 
         chillDownTime = 500;
+=======
+        
+       
+
+    
+        chillDownTime = 500;
+     
+>>>>>>> 496998d5caf4c94c815997837a77360d6d44e8df
     }
 
     public void Update(InputHandler inputHandler, GameTime gameTime, List<FireBall> fireBallList, List<IceBall> iceBallList)
