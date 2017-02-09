@@ -38,6 +38,7 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Creature.cs" />
     <Compile Include="FireBall.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Chill_Day.cs" />

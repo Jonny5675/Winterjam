@@ -84,3 +84,23 @@ C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\G
 C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Sounds\welcome.wma
 C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Sounds\welcome.xnb
 C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\Real Playerglasses.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\purple playa.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\Real Player.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\Real Playerglasses.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\ship burning yay.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\ship burning yay2.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\The Real Beach2.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\The real boat burnig 2.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\The real boat burning.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Sounds\burning.wma
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Sounds\burning.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Sounds\explosion.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Sounds\fireballs.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Sounds\gameover.wma
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Sounds\gameover.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Sounds\iceball.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Sounds\traveler.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Sounds\welcome.wma
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Sounds\welcome.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\hp_black.xnb
+C:\Users\User\Documents\Winterjam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\hp_red.xnb

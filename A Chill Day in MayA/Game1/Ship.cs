@@ -5,19 +5,21 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Audio;
 
-class Ship : SpriteGameObject
+class Ship : Creature
 {
-      public int lives = 4;
+    public int lives = 4;
 
     Texture2D shipfine, shipfire1, shipfire2;
     Texture2D shipother, shipotherfire1, shipotherfire2;
+    Texture2D iceBall;
 
+    SoundEffect iceballSound;
 
-
-
+    int chillDownTime;
     
-        public Ship(Game1 game) : base(game.Content.Load<Texture2D>("Le Sprites/The real boat"), new Rectangle(0, 0, 500, 500), 0f, new Vector2(0, 0))
+    public Ship(Game1 game) : base(game, game.Content.Load<Texture2D>("Le Sprites/The real boat"), new Rectangle(0, 0, 500, 500), 0f, new Vector2(0, 0), 5)
     {
         //if (lives>2) not flames if lives<2 burning, if we have time 
         shipfine  = game.Content.Load<Texture2D>("Le Sprites/The real boat");
@@ -26,47 +28,59 @@ class Ship : SpriteGameObject
         shipother = game.Content.Load<Texture2D>("Le Sprites/ship");
         shipotherfire1 = game.Content.Load<Texture2D>("Le Sprites/ship burning yay");
         shipotherfire2 = game.Content.Load<Texture2D>("Le Sprites/ship burning yay2");
+
+        iceBall = game.Content.Load<Texture2D>("Le Sprites/IceBall");
+        iceballSound = game.Content.Load<SoundEffect>("Sounds/iceball");
+
+        chillDownTime = 500;
     }
 
-    /*Was Trying to Create A method/case switch to load a different ship tile so if you hit it enough it start starts to burn
-     * , also have no idea how make it pick both of the burning so it would look like it has moving flames.
-     * 
-    public Shipb(Game1 game) : base(game.Content.Load<Texture2D>("Le Sprites/The real boat burning"), new Rectangle(0, 0, 500, 500), 0f, new Vector2(0, 0))
+    public void Update(InputHandler inputHandler, GameTime gameTime, List<FireBall> fireBallList, List<IceBall> iceBallList, Vector2 playerPos)
     {
+        chillDownTime += gameTime.ElapsedGameTime.Milliseconds;
 
-
-    }
-
-
-
-    public Shipb(Game1 game) : base(game.Content.Load<Texture2D>("Le Sprites/The real boat burnig 2"), new Rectangle(0, 0, 500, 500), 0f, new Vector2(0, 0))
-    {
-
-
-    }
-    */
-
-
-
-
-
-
-    public override void Update()
-    {
-        //trying to make a bool for shit is hit, so yeah collision, did some lives for the ship, more or less
-        //if (Shipishit==true)
+        //shoot iceballs
+        if (chillDownTime >= 2000)
         {
-            lives = -1;
+            Vector2 origin = new Vector2(rectangle.X + rectangle.Width / 2, rectangle.Y + rectangle.Height / 2);
+
+            Vector2 direction = playerPos - origin;
+            direction.Normalize();
+
+            IceBall i = new IceBall(iceBall, origin, direction);
+            iceBallList.Add(i);
+
+            chillDownTime = 0;
+
+            //plays the fireball sound
+            iceballSound.Play();
         }
+
+        //check whether the ship is hit by fireballs
+        try
+        {
+            if (fireBallList.Count > 0)
+            {
+                for (int i = fireBallList.Count; i > 0; i--)
+                {
+                    if (rectangle.Contains(fireBallList.ElementAt(i - 1).Rect))
+                    {
+                        //remove the fireball
+                        fireBallList.RemoveAt(i - 1);
+
+                        //lower the ship's hp
+                        hitPoints--;
+                    }
+                }
+            }
+        }
+        catch(Exception e) { }
+
+        base.Update();
     }
 
     public override void Draw(SpriteBatch s)
     {
         base.Draw(s);
-
-        if (lives ==0)
-        {
-            
-        }
     }
 }

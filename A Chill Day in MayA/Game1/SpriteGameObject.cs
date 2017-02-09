@@ -21,6 +21,11 @@ class SpriteGameObject
         this.direction = direction;
     }
 
+    public Rectangle Rect
+    {
+        get { return rectangle; }
+    }
+
     public virtual void Update()
     {
         rectangle.X += (int)(direction.X * speed);

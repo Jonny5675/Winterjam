@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/Le Sprites/Beachchair.png</SourceFile>
-  <SourceTime>2017-02-08T20:05:23.6675326+01:00</SourceTime>
-  <DestFile>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/bin/Windows/Le Sprites/Beachchair.xnb</DestFile>
-  <DestTime>2017-02-09T13:26:43.9063498+01:00</DestTime>
+  <SourceFile>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/Le Sprites/hp_red.png</SourceFile>
+  <SourceTime>2017-02-09T13:20:53.687579+01:00</SourceTime>
+  <DestFile>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/bin/Windows/Le Sprites/hp_red.xnb</DestFile>
+  <DestTime>2017-02-09T13:26:47.8984634+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T08:36:08+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

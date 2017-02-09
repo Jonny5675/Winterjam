@@ -10,8 +10,7 @@ using Microsoft.Xna.Framework.Graphics;
 class IceBall : SpriteGameObject
 
 {
-
-    public IceBall(Texture2D iceBall, Vector2 origin, Vector2 direction): base(iceBall, new Rectangle ((int)origin.X, (int)origin.Y, 50, 50), 2.7f, direction)
+    public IceBall(Texture2D iceBall, Vector2 origin, Vector2 direction): base(iceBall, new Rectangle ((int)origin.X, (int)origin.Y, 50, 50), 7.5f, direction)
     {
 
     }

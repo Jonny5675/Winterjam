@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Sounds/explosion.wav</SourceFile>
-  <SourceTime>2017-02-09T02:46:01.9290339+01:00</SourceTime>
-  <DestFile>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/bin/Windows/Sounds/explosion.xnb</DestFile>
-  <DestTime>2017-02-09T03:32:39.0883294+01:00</DestTime>
+  <SourceFile>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/Sounds/explosion.wav</SourceFile>
+  <SourceTime>2017-02-09T11:59:13.2534719+01:00</SourceTime>
+  <DestFile>C:/Users/User/Documents/Winterjam/A Chill Day in MayA/Game1/Content/bin/Windows/Sounds/explosion.xnb</DestFile>
+  <DestTime>2017-02-09T13:26:45.1943274+01:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2016-03-30T08:36:08+02:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>

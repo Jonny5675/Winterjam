@@ -15,12 +15,7 @@ class FireBall : SpriteGameObject
 
     public override void Update()
     {
-       /*  still trying to do collision
-        *  if (ship.)
-        {
-            Shipishit = true;
-        }*/
-        base.Update();
+       base.Update();
     }
 
     public override void Draw(SpriteBatch s)

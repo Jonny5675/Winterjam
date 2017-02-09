@@ -15,6 +15,8 @@ class Chill_Day
 
     Texture2D background;
 
+    bool gameOver;
+
     List<Ship> shipList;
     Player player;
     List<FireBall> fireBallList;
@@ -29,12 +31,14 @@ class Chill_Day
 
         background = game.Content.Load<Texture2D>("Le Sprites/The Real Beach2");
 
+        gameOver = false;
+
         shipList = new List<Ship>();
         AddShip();
         fireBallList = new List<FireBall>();
         iceBallList = new List<IceBall>();
 
-        player = new Player(game, fireBallList);
+        player = new Player(game);
     }
 
     public void AddShip()
@@ -49,10 +53,10 @@ class Chill_Day
 
         foreach (Ship ship in shipList)
         {
-            ship.Update();
+            ship.Update(inputHandler, gameTime, fireBallList, iceBallList, new Vector2(player.Rect.X, player.Rect.Y));
         }
 
-        player.Update(inputHandler, gameTime);
+        player.Update(inputHandler, gameTime, fireBallList, iceBallList);
 
         foreach (FireBall f in fireBallList)
         {
@@ -62,6 +66,21 @@ class Chill_Day
         foreach(IceBall i in iceBallList)
         {
             i.Update();
+        }
+
+        //when player has no hitpoints left, it's gameOver
+        if (player.HitPoints <= 0)
+        {
+            gameOver = true;
+        }
+
+        //remove ships that have no hitpoints left
+        for (int i = shipList.Count; i > 0; i--)
+        {
+            if (shipList.ElementAt(i - 1).HitPoints <= 0)
+            {
+                shipList.RemoveAt(i - 1);
+            }
         }
     }
 
