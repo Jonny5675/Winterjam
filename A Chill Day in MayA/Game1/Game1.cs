@@ -14,6 +14,8 @@ public class Game1 : Game
 
     Vector2 screen;
 
+
+
     public Game1()
     {
         graphics = new GraphicsDeviceManager(this);

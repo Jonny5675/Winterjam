@@ -27,7 +27,7 @@ class Chill_Day
 
         inputHandler = new InputHandler();
 
-        background = game.Content.Load<Texture2D>("Le Sprites/The Real Beach");
+        background = game.Content.Load<Texture2D>("Le Sprites/The Real Beach2");
 
         shipList = new List<Ship>();
         AddShip();
