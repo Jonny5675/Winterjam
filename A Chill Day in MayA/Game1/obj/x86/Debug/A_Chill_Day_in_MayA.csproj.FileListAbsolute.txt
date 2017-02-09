@@ -112,3 +112,4 @@ C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\G
 C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\realburningshipsno.xnb
 C:\Users\dkook\Documents\Rpos for positries 2too\WinterJam\A Chill Day in MayA\Game1\bin\Windows\x86\Debug\Content\Le Sprites\takedamage.xnb
 >>>>>>> 496998d5caf4c94c815997837a77360d6d44e8df
+>>>>>>> cbdca843e60d67c88d19ba08ba0b07f2a9c76527

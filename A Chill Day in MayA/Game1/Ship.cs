@@ -20,10 +20,14 @@ class Ship : Creature
     int chillDownTime;
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     public Ship(Game1 game) : base(game, game.Content.Load<Texture2D>("Le Sprites/The real boat"), new Rectangle(0, 0, 500, 500), 0f, new Vector2(0, 0), 5)
 =======
         public Ship(Game1 game) : base(game.Content.Load<Texture2D>("Le Sprites/bigpin"), new Rectangle(0, 0, 500, 500), 0f, new Vector2(0, 0))
 >>>>>>> 496998d5caf4c94c815997837a77360d6d44e8df
+=======
+        public Ship(Game1 game) : base(game.Content.Load<Texture2D>("Le Sprites/The real boat"), new Rectangle(0, 0, 500, 500), 0f, new Vector2(0, 0))
+>>>>>>> cbdca843e60d67c88d19ba08ba0b07f2a9c76527
     {
         //if (lives>2) not flames if lives<2 burning, if we have time 
         shipfine  = game.Content.Load<Texture2D>("Le Sprites/The real boat");

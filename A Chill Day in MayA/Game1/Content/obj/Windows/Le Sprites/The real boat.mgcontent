@@ -9,8 +9,12 @@
   <SourceFile>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/Le Sprites/The real boat.png</SourceFile>
   <SourceTime>2017-02-08T17:37:42.0427208+01:00</SourceTime>
   <DestFile>C:/Users/dkook/Documents/Rpos for positries 2too/WinterJam/A Chill Day in MayA/Game1/Content/bin/Windows/Le Sprites/The real boat.xnb</DestFile>
+<<<<<<< HEAD
   <DestTime>2017-02-09T14:06:30.0931555+01:00</DestTime>
 >>>>>>> 496998d5caf4c94c815997837a77360d6d44e8df
+=======
+  <DestTime>2017-02-09T03:32:38.8566175+01:00</DestTime>
+>>>>>>> cbdca843e60d67c88d19ba08ba0b07f2a9c76527
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T08:36:08+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
