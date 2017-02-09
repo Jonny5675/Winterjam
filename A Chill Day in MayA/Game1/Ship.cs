@@ -17,7 +17,7 @@ class Ship : SpriteGameObject
 
 
     
-        public Ship(Game1 game) : base(game.Content.Load<Texture2D>("Le Sprites/The real boat"), new Rectangle(0, 0, 500, 500), 0f, new Vector2(0, 0))
+        public Ship(Game1 game) : base(game.Content.Load<Texture2D>("Le Sprites/bigpin"), new Rectangle(0, 0, 500, 500), 0f, new Vector2(0, 0))
     {
         //if (lives>2) not flames if lives<2 burning, if we have time 
         shipfine  = game.Content.Load<Texture2D>("Le Sprites/The real boat");
